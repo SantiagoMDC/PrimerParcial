@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Persona} from 'src/app/models/persona';
 import { PersonaService } from 'src/app/services/persona.service';
+
 @Component({
   selector: 'app-persona-consulta',
   templateUrl: './persona-consulta.component.html',

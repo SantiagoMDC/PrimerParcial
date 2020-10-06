@@ -4,27 +4,22 @@
         <div class="col-md-6">
             <div class="box-body">
                 <div class="form-group">
-<label>Identificacion:</label>
-<input class="form-control" [(ngModel)]="persona.identificacion" placeholder="Por favor digite su identificacion">
+                    <label>Identificacion:</label>
+                    <input class="form-control" [(ngModel)]="persona.identificacion" placeholder="DIGITE IDENTIFICACION ">
                 </div>
                 <div class="form-group">
                     <label>Sexo:</label>
                     <select class="form-control" [(ngModel)]="persona.sexo">
                         <option value="Femenino">Femenino</option>
                         <option value="Masculino">Masculino</option>
- </select>    
+                    </select>    
                 </div>
                 <div class="form-group">
-                    <label>Valor De Apoyo</label>
-<input class="form-control"  [(ngModel)]="persona.valorDeApoyo" placeholder="Ingrese valor De Apoyo:">
+                    <label>Valor de apoyo</label>
+                    <input class="form-control"  [(ngModel)]="persona.valorDeApoyo" placeholder="DIGITE VALOR: ">
                 </div>
                 <div class="form-group">
-                    <label>Modalidad de apoyo:</label>
-                    <select class="form-control" [(ngModel)]="persona.modalidadDeApoyo">
-                        <input class="form-control"  [(ngModel)]="persona.valorDeApoyo" placeholder="Ingrese el monto:">
-                </div>
-                <div class="form-group">
-                    <label>Tipo Ayuda:</label>
+                    <label>Modalidad De Ayuda:</label>
                     <select class="form-control" [(ngModel)]="persona.modalidadDeApoyo">
                         <option value="Alimentario">Alimentario</option>
                         <option value="Economico">Economico</option>
@@ -35,43 +30,43 @@
         <div class="col-md-6">
             <div class="box-body">
                 <div class="form-group">
- <label>Nombre:</label>
-                    <input class="form-control" [(ngModel)]="persona.nombre" placeholder="Digite nombre">
+                    <label>Nombre:</label>
+                    <input class="form-control" [(ngModel)]="persona.nombre" placeholder="DIGITE NOMBRE ">
                 </div>
                 <div class="form-group">
                     <label>Apellidos:</label>
-                    <input class="form-control" [(ngModel)]="persona.apellidos" placeholder="Digite Apellidos">
+                    <input class="form-control" [(ngModel)]="persona.apellidos" placeholder="DIGITE APELLIDOS ">
                 </div>
                 <div class="form-group">
                     <label>Edad:</label>
-                    <input class="form-control" [(ngModel)]="persona.edad" placeholder="Digite edad">
+                    <input class="form-control" [(ngModel)]="persona.edad" placeholder="DIGITE EDAD">
                 </div>   
-<div class="form-group">
+                <div class="form-group">
                     <label>Departamento:</label>
-                    <input class="form-control" [(ngModel)]="persona.departamento" placeholder="Digite departamento">
+                    <input class="form-control" [(ngModel)]="persona.departamento" placeholder="DIGITE DEPARTAMENTO">
                 </div>
-<div class="form-group">
+                <div class="form-group">
                     <label>Ciudad:</label>
-                    <input class="form-control" [(ngModel)]="persona.ciudad" placeholder="Digite ciudad">
+                    <input class="form-control" [(ngModel)]="persona.ciudad" placeholder="DIGITE CIUDAD">
                 </div>
                 <div class="form-group">
                     <label>Fecha:</label>
-                    <input class="form-control" [(ngModel)]="persona.fecha" placeholder="Digite fecha">
+                    <input class="form-control" [(ngModel)]="persona.fecha" placeholder="DIGITE FECHA">
                 </div>
- <div class="row" style="margin-top: 47px;">
+                <div class="row" style="margin-top: 47px;">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label></label>
-<button class="btn btn-primary form-control" (click)="add()">Registrar</button>
+                            <button class="btn btn-primary form-control" (click)="add()">Registrar</button>
                         </div>                       
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-  <button class="btn btn-danger form-control" type="reset">Cancelar</button>
+                            <button class="btn btn-danger form-control" type="reset">Cancelar</button>
                         </div>                       
                     </div>
                 </div>
             </div>    
         </div>    
     </div>
-</section>   
+</section>        
